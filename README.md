@@ -24,3 +24,12 @@ J'ai donc modifié la couche fully connected pour renvoyer 2 classes au lieu de 
 - 1000 images deepfake
 (DiffusionDB est le premier ensemble de données de prompts texte-vers-image à grande échelle.  
 Il contient 14 millions d'images générées par Stable Diffusion en utilisant des prompts et des hyperparamètres spécifiés par de vrais utilisateurs.)
+
+**Répartition des données**
+- Entrainement ~1600 images  
+- Test ~200 images  
+- Validation ~200 images  
+
+**Traitement des images**
+- Redimensionner en 224x224 pixel  
+- Normaliser  
