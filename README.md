@@ -45,7 +45,7 @@ Sur la couches Fc, la 3ème couche et la 4ème couche.
 Dans ce code je m'inspire de l'article suivant: [Consulter le document PDF](http://staff.ustc.edu.cn/~zhangwm/Paper/2022_26.pdf)  
 Sauf que j'utilise Retinex qui est un modèle de traitement d'image qui vise à améliorer la qualité et la perception des couleurs dans les images en corrigeant l'équilibre des couleurs et en augmentant la dynamique du contraste.   
 L'idée fondamentale du Retinex est basée sur la façon dont le système visuel humain perçoit les couleurs en fonction de la lumière incidente.  
-Et donc, mon modèle prend deux images en entrée : l'image de base sans pré-traitement et l'image avec pré-traitement, en utilisant la différence absolue entre l'image de base et l'image obtenue après avoir appliqué Retinex.     
+Et donc, mon modèle prend deux images en entrée : l'image de base sans pré-traitement et l'image avec pré-traitement, en utilisant la différence absolue entre l'image de base et l'image obtenue après avoir appliqué Retinex.         
 ![Capture d’écran 2024-01-24 172024](https://github.com/razal563/Detection_Deepfake/assets/119457644/62923164-aa37-4a9f-bee0-37ffe5c4e81a)  
 
 ## Résultat 
