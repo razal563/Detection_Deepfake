@@ -17,6 +17,10 @@ Ils permettent de résoudre le problème de la disparition du gradient dans les 
 Le modèle a été pré-entraîné sur ImageNet avec environ 1 million d’images réparties sur 1000 classes.   
 J'ai donc modifié la couche fully connected pour renvoyer 2 classes au lieu de 1000 classes.
 
+**Architecture du modèle**
+
+![Capture d’écran 2024-01-24 172801](https://github.com/razal563/Detection_Deepfake/assets/119457644/04db15d0-f38f-4853-ace2-31add8525f16)
+
 ## Ensemble de données
 
 **Données**
@@ -74,6 +78,7 @@ Cela souligne l'importance cruciale de la diversité des données dans de telles
 Bien que la détection de deepfake soit une considération très importante, il est intéressant de noter que les modèles ResNet50 et ResNet101 présentent des performances similaires dans ce contexte spécifique.
 
 **Perspectives**  
+
 Augmenter l'ensemble de données pourrait être une approche pour améliorer les performances, en introduisant une plus grande diversité d'images pour favoriser une meilleure généralisation.   
 L'intégration d'images générées par des GAN (Generative Adversarial Networks) dans l'ensemble de données pourrait être explorée pour rendre le modèle plus robuste aux diverses méthodes de création de contenu falsifié.   
 Pour optimiser davantage les performances, il serait judicieux d'explorer des techniques plus avancées pour tirer parti des informations lumineuses présentes dans les images, afin d'améliorer la capacité du modèle à discerner les caractéristiques importantes.  
