@@ -37,7 +37,7 @@ Voici le lien des images deepfake dont l'auteur à supprimer les droits: [Consul
 
 ## Dossier Fine-Tunning
 
-J'ai entrainé mon modèle pré-entrainé sur plusieurs couches. 
+J'ai entrainé mon modèle pré-entrainé sur plusieurs couches.   
 Sur la couches Fc, la 3ème couche et la 4ème couche. 
 
 ## Dossier Fine-Tunning + Retinex
@@ -45,7 +45,7 @@ Sur la couches Fc, la 3ème couche et la 4ème couche.
 Dans ce code je m'inspire de l'article suivant: [Consulter le document PDF](http://staff.ustc.edu.cn/~zhangwm/Paper/2022_26.pdf)  
 Sauf que j'utilise Retinex qui est un modèle de traitement d'image qui vise à améliorer la qualité et la perception des couleurs dans les images en corrigeant l'équilibre des couleurs et en augmentant la dynamique du contraste.   
 L'idée fondamentale du Retinex est basée sur la façon dont le système visuel humain perçoit les couleurs en fonction de la lumière incidente.  
-Et donc mon modèle prend 2 images en entrée, l'image de base sans pré-traitement puis aussi l'image avec pré-traitement et en utilisant la différence absolue entre l'image de base et l'image obtenue apres avoir applique Retinex.  
+Et donc, mon modèle prend deux images en entrée : l'image de base sans pré-traitement et l'image avec pré-traitement, en utilisant la différence absolue entre l'image de base et l'image obtenue après avoir appliqué Retinex.   
 
 ## Résultat 
 
@@ -71,7 +71,7 @@ Dans le contexte de la détection de deepfake, un jeu de données peu diversifi�
 Cela souligne l'importance cruciale de la diversité des données dans de telles tâches.   
 Bien que la détection de deepfake soit une considération très importante, il est intéressant de noter que les modèles ResNet50 et ResNet101 présentent des performances similaires dans ce contexte spécifique.
 
-**Perspectives**
+**Perspectives**  
 Augmenter l'ensemble de données pourrait être une approche pour améliorer les performances, en introduisant une plus grande diversité d'images pour favoriser une meilleure généralisation.   
 L'intégration d'images générées par des GAN (Generative Adversarial Networks) dans l'ensemble de données pourrait être explorée pour rendre le modèle plus robuste aux diverses méthodes de création de contenu falsifié.   
 Pour optimiser davantage les performances, il serait judicieux d'explorer des techniques plus avancées pour tirer parti des informations lumineuses présentes dans les images, afin d'améliorer la capacité du modèle à discerner les caractéristiques importantes.  
