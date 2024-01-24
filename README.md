@@ -16,3 +16,11 @@ introduites par Kaiming He et al. en 2015. Ces réseaux sont célèbres pour leu
 Ils permettent de résoudre le problème de la disparition du gradient dans les réseaux très profonds.  
 Le modèle a été pré-entraîné sur ImageNet avec environ 1 million d’images réparties sur 1000 classes.   
 J'ai donc modifié la couche fully connected pour renvoyer 2 classes au lieu de 1000 classes.
+
+## Ensemble de données
+
+**Données**
+- 1000 images réelles (LAION)
+- 1000 images deepfake
+(DiffusionDB est le premier ensemble de données de prompts texte-vers-image à grande échelle.  
+Il contient 14 millions d'images générées par Stable Diffusion en utilisant des prompts et des hyperparamètres spécifiés par de vrais utilisateurs.)
