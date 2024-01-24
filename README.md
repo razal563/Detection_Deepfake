@@ -32,8 +32,8 @@ Voici le lien des images deepfake dont l'auteur à supprimer les droits: [Consul
 
 **Répartition des données**
 - Entrainement ~1600 images  
-- Test ~200 images  
-- Validation ~200 images  
+- Validation ~200 images    
+- Test ~200 images    
 
 **Traitement des images**
 - Redimensionner en 224x224 pixel  
