@@ -23,7 +23,7 @@ J'ai donc modifié la couche fully connected pour renvoyer 2 classes au lieu de 
 - 1000 images réelles (LAION)
 - 1000 images deepfake
 (DiffusionDB est le premier ensemble de données de prompts texte-vers-image à grande échelle.  
-Il contient 14 millions d'images générées par Stable Diffusion en utilisant des prompts et des hyperparamètres spécifiés par de vrais utilisateurs.)
+Il contient 14 millions d'images générées par Stable Diffusion en utilisant des prompts et des hyperparamètres spécifiés par de vrais utilisateurs.)  
 Voici le lien des images deepfake dont l'auteur à supprimer les droits: [Consulter le lien](https://huggingface.co/datasets/poloclub/diffusiondb)  
 
 **Répartition des données**
